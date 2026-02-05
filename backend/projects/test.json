@@ -1,0 +1,112 @@
+{
+  "networkData": [
+    {
+      "criticality": "medium",
+      "id": "host_192_168_1_10",
+      "ip": "192.168.1.10",
+      "name": "web-server-01.techcorp.local",
+      "os": "Linux 4.15 - 5.8",
+      "services": [
+        "SSH:22",
+        "HTTP:80",
+        "HTTPS:443"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "high",
+      "id": "host_192_168_1_50",
+      "ip": "192.168.1.50",
+      "name": "db-server-01.techcorp.local",
+      "os": "Microsoft Windows Server 2019",
+      "services": [
+        "MSSQL:1433",
+        "RDP:3389",
+        "SMB:445"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "medium",
+      "id": "host_192_168_1_100",
+      "ip": "192.168.1.100",
+      "name": "ws-finance-01.techcorp.local",
+      "os": "Microsoft Windows 10 Pro",
+      "services": [
+        "MSRPC:135",
+        "SMB:445",
+        "RDP:3389"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "medium",
+      "id": "host_192_168_1_60",
+      "ip": "192.168.1.60",
+      "name": "file-server-01.techcorp.local",
+      "os": "Microsoft Windows Server 2016",
+      "services": [
+        "FTP:21",
+        "NETBIOS-SSN:139",
+        "SMB:445"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "critical",
+      "id": "host_192_168_1_5",
+      "ip": "192.168.1.5",
+      "name": "dc-01.techcorp.local",
+      "os": "Microsoft Windows Server 2022",
+      "services": [
+        "DOMAIN:53",
+        "KERBEROS:88",
+        "LDAP:389",
+        "SMB:445",
+        "RDP:3389"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "low",
+      "id": "host_192_168_1_25",
+      "ip": "192.168.1.25",
+      "name": "mail-server-01.techcorp.local",
+      "os": "Linux 5.4",
+      "services": [
+        "SMTP:25",
+        "POP3:110",
+        "IMAP:143",
+        "IMAPS:993"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    },
+    {
+      "criticality": "medium",
+      "id": "host_192_168_1_75",
+      "ip": "192.168.1.75",
+      "name": "print-server-01.techcorp.local",
+      "os": "Microsoft Windows Server 2019",
+      "services": [
+        "SMB:445",
+        "PRINTER:515",
+        "IPP:631"
+      ],
+      "vulnerabilities": [],
+      "vulns": 0
+    }
+  ],
+  "attackPaths": [],
+  "timestamp": "2026-02-05T16:00:18.778Z",
+  "metadata": {
+    "name": "test",
+    "created_at": "2026-02-05T11:00:18.789412",
+    "version": "1.0.0"
+  }
+}
